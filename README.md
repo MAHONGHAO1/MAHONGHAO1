@@ -14,15 +14,16 @@
 | --- | --- | --- | --- |
 | [RoboData Workbench](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform) | v0.8.0 · React + TypeScript / FastAPI / Python | 具身数据的可追溯质检、LeRobot v3.0 转换与独立交付验包 | [项目深度页](https://mahonghao1.github.io/robodata/) |
 | [AI 智选基金助手](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform) | v0.3.0 · React + TypeScript / FastAPI / Python | 数据可追溯的本地组合分析工作台，明确区分有效值与不可用状态 | [作品集首页](https://mahonghao1.github.io/) |
+| [数据采集端 QuicStation](https://mahonghao1.github.io/#platforms) | v0.4.2 · 公司内部系统 | 真机数采工作站控制端：QRDF / LeRobot 双格式并行录制、三相机适配、上传与审核准入联动 | [界面展示](https://mahonghao1.github.io/#platforms) · 代码不公开 |
 
-**共同主线**：数据来源可追溯 · 指标口径明确 · 不可用状态显式标注 · 能力边界写进界面和文档。两个项目都是**本机单用户**运行，展示页为静态截图与验收证据，不提供公网交互实例；基金项目的持仓是虚构合成样例，不连接真实账户、不执行交易、不提供投资建议。
+**共同主线**：数据来源可追溯 · 指标口径明确 · 不可用状态显式标注 · 能力边界写进界面和文档。前两个项目为**本机单用户**运行，展示页是静态截图与验收证据，不提供公网交互实例；基金项目的持仓是虚构合成样例，不连接真实账户、不执行交易、不提供投资建议。第三个为公司内部商用系统，经许可展示脱敏界面，代码与提交记录不公开。
 
 ### RoboData Workbench
 
 - 接入 → 清洗筛选 → 标注审核 → 质检 → 转换 → 打包交付，人工与自动节点混合编排；未通过质检的批次强制拦截
 - 质检规则内建：时间戳、缺帧重复、异常轨迹、NaN 行级定位；交付包经官方 LeRobot 离线加载、DataLoader 复核与 SHA-256 防篡改
 - **验收范围**：固定 ALOHA Coffee 公开样例与 SO-100 子集的限定范围验证。逐路文件时间映射检查**不代表相机硬件同步**；四相机同屏是 16:9 布局验证，批次元数据为演示构造
-- Python 246 项测试通过，前端 Vitest 与 Playwright 多视口回归、CI 见上方 badge
+- **测试口径**：本仓库 Python 246 项 pytest 通过，前端 Vitest 与 Playwright 多视口回归，CI 见上方 badge。工作中另有擎仓内部回归 678 项（采集端与平台），不在本仓库范围，两项不叠加计算
 
 ### AI 智选基金助手
 
