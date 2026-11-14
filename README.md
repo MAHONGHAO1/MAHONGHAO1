@@ -24,7 +24,7 @@
 - 质检做在行一级：时间戳跳变、缺帧、重复帧、异常轨迹、NaN，报告直接给帧号
 - 交付前用官方 LeRobot 离线加载、过 DataLoader、算 SHA-256，被退一次的时间够自己验十次
 - ALOHA Coffee Episode 0–4 端到端跑通：5,500 帧、四路 640×480、50 FPS；SO-100 子集 5 条 / 3,562 帧通过转换与交付验收
-- 289 项 pytest、26 项前端单测与 Chromium 流程通过；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
+- 290 项 pytest、26 项前端单测与 Chromium 流程；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
 
 **边界**：验收范围限公开 ALOHA 样例与 SO-100 子集。四路同屏是布局验证，帧—时间映射一致不代表相机硬件同步；标注审核由脚本模拟，不代表人工审核，也不宣称训练效果。
 
@@ -33,12 +33,27 @@
 同一条思路用在基金上：先说清每个数字从哪来，再谈收益。净值来源、取数日期、回退原因逐只摊开，数据撑不起区间就写「不可用」，不拿 0.00% 糊过去。
 
 - 真实净值 / AkShare 回退 / 模拟净值 / 离线演示四条路径都留痕
-- 34 项 pytest、5 项前端单测、1 项浏览器流程通过
+- 40 项 pytest、5 项前端单测、1 项浏览器流程通过
 - **边界**：持仓是虚构合成样例，不连真实账户、不下单、不构成投资建议
 
 ### [QuicStation 数据采集端](https://mahonghao1.github.io/#platforms) · v0.4.2
 
 公司内部商用系统，真机数采工作站控制端：QRDF / LeRobot 双格式并行录制、三相机适配、上传与审核准入联动。经许可展示脱敏界面，代码与提交记录不公开。
+
+## 最近改动
+
+<!-- RECENT_UPDATES:START -->
+- 2026-11-14 · [Embodied-AI-Data-Processing-Platform v0.9.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.9.0) — RoboData Workbench v0.9.0
+- 2026-11-12 · [Embodied-AI-Data-Processing-Platform v0.8.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.8.0) — v0.8.0 · 16:9 固定工作台
+  - 2026-11-14 · [docs(readme): drop the duplicated hero screenshot in the v0.8.0 record](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/9d76f991b68a7167efa2ac516ea4a3a107360981)
+  - 2026-11-14 · [docs(readme): lead with the problem the tool solves, move version history down](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/75d3e81b7cf347bef950429df0a9fcc6f16894d2)
+- 2026-11-14 · [AI-Fund-Management-Platform v0.4.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.4.0) — v0.4.0 · 指标口径与模拟数据边界修正
+- 2026-11-12 · [AI-Fund-Management-Platform v0.3.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.3.0) — v0.3.0 · 16:9 固定工作台
+  - 2026-11-14 · [docs(readme): open with why the numbers can be trusted, not with the changelog](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/2b1d35e9837569c2c370a7bf74ac2d693df7c974)
+  - 2026-11-14 · [fix(metrics): correct interval returns, drawdown window and synthetic-data bound…](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/fa1320ab2c0e7bac25828eb766b92159b2dbd033)
+
+（2026-11-14 18:12 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+<!-- RECENT_UPDATES:END -->
 
 ## 做过什么
 
