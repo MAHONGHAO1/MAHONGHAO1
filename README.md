@@ -24,7 +24,7 @@
 - 质检做在行一级：时间戳跳变、缺帧、重复帧、异常轨迹、NaN，报告直接给帧号
 - 交付前用官方 LeRobot 离线加载、过 DataLoader、算 SHA-256，被退一次的时间够自己验十次
 - ALOHA Coffee Episode 0–4 端到端跑通：5,500 帧、四路 640×480、50 FPS；SO-100 子集 5 条 / 3,562 帧通过转换与交付验收
-- 290 项 pytest、26 项前端单测与 Chromium 流程；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
+- 320 项 pytest（本轮 306 通过）、26 项前端单测与 Chromium 流程；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
 
 **边界**：验收范围限公开 ALOHA 样例与 SO-100 子集。四路同屏是布局验证，帧—时间映射一致不代表相机硬件同步；标注审核由脚本模拟，不代表人工审核，也不宣称训练效果。
 
@@ -33,7 +33,7 @@
 同一条思路用在基金上：先说清每个数字从哪来，再谈收益。净值来源、取数日期、回退原因逐只摊开，数据撑不起区间就写「不可用」，不拿 0.00% 糊过去。
 
 - 真实净值 / AkShare 回退 / 模拟净值 / 离线演示四条路径都留痕
-- 40 项 pytest、5 项前端单测、1 项浏览器流程通过
+- 41 项 pytest、7 项前端单测、1 项浏览器流程通过
 - **边界**：持仓是虚构合成样例，不连真实账户、不下单、不构成投资建议
 
 ### [QuicStation 数据采集端](https://mahonghao1.github.io/#platforms) · v0.4.2
@@ -52,7 +52,7 @@
   - 2026-11-14 · [feat: log every data source attempt so outages can be counted](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/55a1c714ce95cd8163cb0c49b9871b6d36e2dcf6)
   - 2026-11-14 · [docs(readme): open with why the numbers can be trusted, not with the changelog](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/2b1d35e9837569c2c370a7bf74ac2d693df7c974)
 
-（2026-11-15 07:57 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-15 14:08 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
