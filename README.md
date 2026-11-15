@@ -45,14 +45,14 @@
 <!-- RECENT_UPDATES:START -->
 - 2026-11-14 · [Embodied-AI-Data-Processing-Platform v0.9.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.9.0) — RoboData Workbench v0.9.0
 - 2026-11-12 · [Embodied-AI-Data-Processing-Platform v0.8.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.8.0) — v0.8.0 · 16:9 固定工作台
+  - 2026-11-14 · [feat: publish the acceptance rules, known-bad fixtures and a CI contract](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/6ab53a8a79e815ff6245f02739e2409832a5097b)
   - 2026-11-14 · [docs(readme): drop the duplicated hero screenshot in the v0.8.0 record](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/9d76f991b68a7167efa2ac516ea4a3a107360981)
-  - 2026-11-14 · [docs(readme): lead with the problem the tool solves, move version history down](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/75d3e81b7cf347bef950429df0a9fcc6f16894d2)
 - 2026-11-14 · [AI-Fund-Management-Platform v0.4.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.4.0) — v0.4.0 · 指标口径与模拟数据边界修正
 - 2026-11-12 · [AI-Fund-Management-Platform v0.3.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.3.0) — v0.3.0 · 16:9 固定工作台
+  - 2026-11-14 · [feat: log every data source attempt so outages can be counted](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/55a1c714ce95cd8163cb0c49b9871b6d36e2dcf6)
   - 2026-11-14 · [docs(readme): open with why the numbers can be trusted, not with the changelog](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/2b1d35e9837569c2c370a7bf74ac2d693df7c974)
-  - 2026-11-14 · [fix(metrics): correct interval returns, drawdown window and synthetic-data bound…](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/fa1320ab2c0e7bac25828eb766b92159b2dbd033)
 
-（2026-11-14 18:12 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-15 07:57 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
