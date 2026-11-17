@@ -52,7 +52,7 @@
   - 2026-11-15 · [feat: show the accumulated source health on the data page](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/c63b8001be28c4098df35f468d91bdadc6b28188)
   - 2026-11-14 · [feat: log every data source attempt so outages can be counted](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/55a1c714ce95cd8163cb0c49b9871b6d36e2dcf6)
 
-（2026-11-16 08:04 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-17 09:20 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
