@@ -43,16 +43,16 @@
 ## 最近改动
 
 <!-- RECENT_UPDATES:START -->
+- 2026-11-17 · [Embodied-AI-Data-Processing-Platform v0.10.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.10.0) — v0.10.0 · Evidence-grade
 - 2026-11-14 · [Embodied-AI-Data-Processing-Platform v0.9.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.9.0) — RoboData Workbench v0.9.0
-- 2026-11-12 · [Embodied-AI-Data-Processing-Platform v0.8.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.8.0) — v0.8.0 · 16:9 固定工作台
+  - 2026-11-17 · [release: v0.10.0 evidence-grade](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/faa60f3f69f3260d7417283be03b9e9138a0a4e1)
   - 2026-11-15 · [feat: make the contract real, and verify the fixtures in one command](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/40962a0639ae14d41755a93cd9783b54ef720df3)
-  - 2026-11-14 · [feat: publish the acceptance rules, known-bad fixtures and a CI contract](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/6ab53a8a79e815ff6245f02739e2409832a5097b)
+- 2026-11-17 · [AI-Fund-Management-Platform v0.5.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.5.0) — v0.5.0 · 命名、版本链与 AI 边界收口
 - 2026-11-14 · [AI-Fund-Management-Platform v0.4.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.4.0) — v0.4.0 · 指标口径与模拟数据边界修正
-- 2026-11-12 · [AI-Fund-Management-Platform v0.3.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.3.0) — v0.3.0 · 16:9 固定工作台
+  - 2026-11-17 · [release: v0.5.0 fund lens](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/f5bddaeffd43ad1f1692c6e13cb87e8c2ad69042)
   - 2026-11-15 · [feat: show the accumulated source health on the data page](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/c63b8001be28c4098df35f468d91bdadc6b28188)
-  - 2026-11-14 · [feat: log every data source attempt so outages can be counted](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/55a1c714ce95cd8163cb0c49b9871b6d36e2dcf6)
 
-（2026-11-17 09:20 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-18 08:40 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
