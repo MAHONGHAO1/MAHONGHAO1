@@ -43,16 +43,16 @@
 ## 最近改动
 
 <!-- RECENT_UPDATES:START -->
-- 2026-11-17 · [Embodied-AI-Data-Processing-Platform v0.10.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.10.0) — v0.10.0 · Evidence-grade
-- 2026-11-14 · [Embodied-AI-Data-Processing-Platform v0.9.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.9.0) — RoboData Workbench v0.9.0
-  - 2026-11-17 · [release: v0.10.0 evidence-grade](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/faa60f3f69f3260d7417283be03b9e9138a0a4e1)
-  - 2026-11-15 · [feat: make the contract real, and verify the fixtures in one command](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/40962a0639ae14d41755a93cd9783b54ef720df3)
+- 2026-11-19 · [Embodied-AI-Data-Processing-Platform v0.12.1](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.12.1) — v0.12.1 · 大样本编码提速与超时校准
+- 2026-11-19 · [Embodied-AI-Data-Processing-Platform v0.12.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.12.0) — v0.12.0 · Matching Cable 缺失流可见
+  - 2026-11-19 · [docs: record v0.12.1 CI results](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/d5668eab47249dbb57330a01990c41bd724a7473)
+  - 2026-11-19 · [perf: speed up Matching Cable encoding and calibrate timeouts](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/0a6076cc0cef8e0b60f617f8d0bb0485f203d88e)
+- 2026-11-18 · [AI-Fund-Management-Platform v0.6.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.6.0) — v0.6.0 · 冻结样本与跨领域证据
 - 2026-11-17 · [AI-Fund-Management-Platform v0.5.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.5.0) — v0.5.0 · 命名、版本链与 AI 边界收口
-- 2026-11-14 · [AI-Fund-Management-Platform v0.4.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.4.0) — v0.4.0 · 指标口径与模拟数据边界修正
-  - 2026-11-17 · [release: v0.5.0 fund lens](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/f5bddaeffd43ad1f1692c6e13cb87e8c2ad69042)
-  - 2026-11-15 · [feat: show the accumulated source health on the data page](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/c63b8001be28c4098df35f468d91bdadc6b28188)
+  - 2026-11-19 · [docs: record chart-fix CI result](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/920e61d545290eae1bce1179602d25a21a5d1858)
+  - 2026-11-19 · [fix: normalize NAV chart and refresh reproduction evidence](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/af148f65287f1eba8f3033ea84a2cb71007ad9ba)
 
-（2026-11-18 08:40 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-19 08:54 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
