@@ -43,16 +43,16 @@
 ## 最近改动
 
 <!-- RECENT_UPDATES:START -->
-- 2026-11-19 · [Embodied-AI-Data-Processing-Platform v0.12.1](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.12.1) — v0.12.1 · 大样本编码提速与超时校准
-- 2026-11-19 · [Embodied-AI-Data-Processing-Platform v0.12.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.12.0) — v0.12.0 · Matching Cable 缺失流可见
-  - 2026-11-19 · [docs: record v0.12.1 CI results](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/d5668eab47249dbb57330a01990c41bd724a7473)
-  - 2026-11-19 · [perf: speed up Matching Cable encoding and calibrate timeouts](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/0a6076cc0cef8e0b60f617f8d0bb0485f203d88e)
+- 2026-11-20 · [Embodied-AI-Data-Processing-Platform v0.16.1](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.16.1) — v0.16.1 — 队列可见：运行诊断页直接看任务、取消与重试
+- 2026-11-19 · [Embodied-AI-Data-Processing-Platform v0.16.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.16.0) — v0.16.0 — 可运维：单机队列、预览级续跑、目录治理
+  - 2026-11-20 · [docs: record v0.16.1 CI results](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/252906f125928e3d092ca0bcbc1bb1f9cb2c3031)
+  - 2026-11-20 · [feat: show queue jobs in the run diagnostics view](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/7b978180ca3adc8d314819770a7485878727debe)
 - 2026-11-18 · [AI-Fund-Management-Platform v0.6.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.6.0) — v0.6.0 · 冻结样本与跨领域证据
 - 2026-11-17 · [AI-Fund-Management-Platform v0.5.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.5.0) — v0.5.0 · 命名、版本链与 AI 边界收口
   - 2026-11-19 · [docs: record chart-fix CI result](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/920e61d545290eae1bce1179602d25a21a5d1858)
   - 2026-11-19 · [fix: normalize NAV chart and refresh reproduction evidence](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/af148f65287f1eba8f3033ea84a2cb71007ad9ba)
 
-（2026-11-19 08:54 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-20 08:41 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
