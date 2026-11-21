@@ -45,14 +45,14 @@
 <!-- RECENT_UPDATES:START -->
 - 2026-11-20 · [Embodied-AI-Data-Processing-Platform v0.16.1](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.16.1) — v0.16.1 — 队列可见：运行诊断页直接看任务、取消与重试
 - 2026-11-19 · [Embodied-AI-Data-Processing-Platform v0.16.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.16.0) — v0.16.0 — 可运维：单机队列、预览级续跑、目录治理
-  - 2026-11-20 · [docs: record v0.16.1 CI results](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/252906f125928e3d092ca0bcbc1bb1f9cb2c3031)
-  - 2026-11-20 · [feat: show queue jobs in the run diagnostics view](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/7b978180ca3adc8d314819770a7485878727debe)
+  - 2026-11-21 · [merge: v0.18 Action 交付门禁](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/73d700e97ff60a56df02f71656bd553bd27402e2)
+  - 2026-11-21 · [feat: 增加 composite Action 交付门禁与自测 workflow](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/3670a5846a48e0bb0623408606a283150ef2b510)
 - 2026-11-18 · [AI-Fund-Management-Platform v0.6.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.6.0) — v0.6.0 · 冻结样本与跨领域证据
 - 2026-11-17 · [AI-Fund-Management-Platform v0.5.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.5.0) — v0.5.0 · 命名、版本链与 AI 边界收口
-  - 2026-11-19 · [docs: record chart-fix CI result](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/920e61d545290eae1bce1179602d25a21a5d1858)
-  - 2026-11-19 · [fix: normalize NAV chart and refresh reproduction evidence](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/af148f65287f1eba8f3033ea84a2cb71007ad9ba)
+  - 2026-11-21 · [merge: v0.17-packaging README 首屏](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/17f16bf85af2ba739dbe181eb09940897decdba2)
+  - 2026-11-21 · [docs: README 首屏改为 30 秒自验（一条命令 + 一个结论）](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/46519549a7f858cd45bb0bf10fc1280b6a558aa6)
 
-（2026-11-20 08:41 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-21 08:22 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
