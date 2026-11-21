@@ -17,23 +17,23 @@
 
 ## 两个能跑起来的项目
 
-### [RoboData Workbench](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform) · v0.9.0
+### [RoboData Workbench](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform) · v0.16.1
 
 把机器人演示数据做成可检查、可追溯、验过才交付的训练集。导入 → 清洗筛选 → 标注审核 → 质检 → LeRobot v3.0 转换 → 打包 → 独立验包，哪一步没过，批次就停在那儿。
 
 - 质检做在行一级：时间戳跳变、缺帧、重复帧、异常轨迹、NaN，报告直接给帧号
 - 交付前用官方 LeRobot 离线加载、过 DataLoader、算 SHA-256，被退一次的时间够自己验十次
 - ALOHA Coffee Episode 0–4 端到端跑通：5,500 帧、四路 640×480、50 FPS；SO-100 子集 5 条 / 3,562 帧通过转换与交付验收
-- 320 项 pytest（本轮 306 通过）、26 项前端单测与 Chromium 流程；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
+- 374 项 pytest（16 项按条件跳过）、27 项前端单测与 Chromium 流程；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
 
 **边界**：验收范围限公开 ALOHA 样例与 SO-100 子集。四路同屏是布局验证，帧—时间映射一致不代表相机硬件同步；标注审核由脚本模拟，不代表人工审核，也不宣称训练效果。
 
-### [AI 智选基金助手](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform) · v0.4.0
+### [基金观察 · Fund Lens](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform) · v0.6.0
 
 同一条思路用在基金上：先说清每个数字从哪来，再谈收益。净值来源、取数日期、回退原因逐只摊开，数据撑不起区间就写「不可用」，不拿 0.00% 糊过去。
 
-- 真实净值 / AkShare 回退 / 模拟净值 / 离线演示四条路径都留痕
-- 41 项 pytest、7 项前端单测、1 项浏览器流程通过
+- 真实净值 / AkShare 回退 / 冻结公开样本 / 模拟净值 / 离线演示五条路径都留痕
+- 57 项 pytest、9 项前端单测、3 项浏览器流程通过
 - **边界**：持仓是虚构合成样例，不连真实账户、不下单、不构成投资建议
 
 ### [QuicStation 数据采集端](https://mahonghao1.github.io/#platforms) · v0.4.2
