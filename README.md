@@ -17,7 +17,7 @@
 
 ## 两个能跑起来的项目
 
-### [RoboData Workbench](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform) · v0.16.1
+### [RoboData Workbench](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform) · v0.17.0
 
 把机器人演示数据做成可检查、可追溯、验过才交付的训练集。导入 → 清洗筛选 → 标注审核 → 质检 → LeRobot v3.0 转换 → 打包 → 独立验包，哪一步没过，批次就停在那儿。
 
@@ -28,7 +28,7 @@
 
 **边界**：验收范围限公开 ALOHA 样例与 SO-100 子集。四路同屏是布局验证，帧—时间映射一致不代表相机硬件同步；标注审核由脚本模拟，不代表人工审核，也不宣称训练效果。
 
-### [基金观察 · Fund Lens](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform) · v0.6.0
+### [基金观察 · Fund Lens](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform) · v0.6.1
 
 同一条思路用在基金上：先说清每个数字从哪来，再谈收益。净值来源、取数日期、回退原因逐只摊开，数据撑不起区间就写「不可用」，不拿 0.00% 糊过去。
 
