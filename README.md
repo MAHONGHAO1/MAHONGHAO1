@@ -45,14 +45,14 @@
 <!-- RECENT_UPDATES:START -->
 - 2026-11-20 · [Embodied-AI-Data-Processing-Platform v0.16.1](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.16.1) — v0.16.1 — 队列可见：运行诊断页直接看任务、取消与重试
 - 2026-11-19 · [Embodied-AI-Data-Processing-Platform v0.16.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.16.0) — v0.16.0 — 可运维：单机队列、预览级续跑、目录治理
-  - 2026-11-21 · [merge: v0.18 Action 交付门禁](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/73d700e97ff60a56df02f71656bd553bd27402e2)
-  - 2026-11-21 · [feat: 增加 composite Action 交付门禁与自测 workflow](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/3670a5846a48e0bb0623408606a283150ef2b510)
+  - 2026-11-21 · [merge: v0.18 发布准备与命令行安装](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/e7a55952f4be0627e9c13426aa03399b0af576fe)
+  - 2026-11-21 · [fix: 非源码安装时 doctor 跳过版本链检查；补命令行安装说明](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/6dab4ba636d138af056e3221f1025231a46fccdd)
 - 2026-11-18 · [AI-Fund-Management-Platform v0.6.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.6.0) — v0.6.0 · 冻结样本与跨领域证据
 - 2026-11-17 · [AI-Fund-Management-Platform v0.5.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.5.0) — v0.5.0 · 命名、版本链与 AI 边界收口
+  - 2026-11-21 · [docs: 30 秒自验补回测试数，与 Profile 一致](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/91430cdb3fe8e431cab239ae863d75cfe514c3fe)
   - 2026-11-21 · [merge: v0.17-packaging README 首屏](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/17f16bf85af2ba739dbe181eb09940897decdba2)
-  - 2026-11-21 · [docs: README 首屏改为 30 秒自验（一条命令 + 一个结论）](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/46519549a7f858cd45bb0bf10fc1280b6a558aa6)
 
-（2026-11-21 08:22 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-22 08:12 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
