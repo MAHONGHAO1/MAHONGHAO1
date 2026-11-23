@@ -15,7 +15,7 @@
 - **主页**：[mahonghao1.github.io](https://mahonghao1.github.io/)
 - **联系**：Mahonghao11@outlook.com
 
-## 两个能跑起来的项目
+## 两个公开项目
 
 ### [RoboData Workbench](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform) · v0.17.0
 
@@ -24,7 +24,7 @@
 - 质检做在行一级：时间戳跳变、缺帧、重复帧、异常轨迹、NaN，报告直接给帧号
 - 交付前用官方 LeRobot 离线加载、过 DataLoader、算 SHA-256，被退一次的时间够自己验十次
 - ALOHA Coffee Episode 0–4 端到端跑通：5,500 帧、四路 640×480、50 FPS；SO-100 子集 5 条 / 3,562 帧通过转换与交付验收
-- 374 项 pytest（16 项按条件跳过）、27 项前端单测与 Chromium 流程；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
+- Python 全量、27 项前端单测与 Chromium 流程通过（计数与口径见 [EVIDENCE](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/blob/main/docs/EVIDENCE.md)）；[在线看四路相机同步时间轴](https://mahonghao1.github.io/robodata/)（免安装）
 
 **边界**：验收范围限公开 ALOHA 样例与 SO-100 子集。四路同屏是布局验证，帧—时间映射一致不代表相机硬件同步；标注审核由脚本模拟，不代表人工审核，也不宣称训练效果。
 
@@ -33,12 +33,22 @@
 同一条思路用在基金上：先说清每个数字从哪来，再谈收益。净值来源、取数日期、回退原因逐只摊开，数据撑不起区间就写「不可用」，不拿 0.00% 糊过去。
 
 - 真实净值 / AkShare 回退 / 冻结公开样本 / 模拟净值 / 离线演示五条路径都留痕
-- 57 项 pytest、9 项前端单测、3 项浏览器流程通过
+- 61 项 pytest、9 项前端单测、3 项浏览器流程通过（口径见 [EVIDENCE](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/blob/main/docs/EVIDENCE.md)）
 - **边界**：持仓是虚构合成样例，不连真实账户、不下单、不构成投资建议
+
+## 内部系统（经许可展示）
 
 ### [QuicStation 数据采集端](https://mahonghao1.github.io/#platforms) · v0.4.2
 
 公司内部商用系统，真机数采工作站控制端：QRDF / LeRobot 双格式并行录制、三相机适配、上传与审核准入联动。经许可展示脱敏界面，代码与提交记录不公开。
+
+### [QuicStudio 数据管理端](https://mahonghao1.github.io/#platforms)
+
+公司内部数据全生命周期管理控制台：采集管理、标注治理、数据沉淀到训练取数，和 QuicStation 共用同一套批次 / Episode 口径。版本与代码不公开，界面经许可脱敏展示。
+
+## In English
+
+I work on the handoff between robot data collection and training: real-machine capture, quality gates, LeRobot conversion, and delivery verification. 2027 graduate in Robotics at Shanghai Institute of Technology; currently at Quic Robot. I build tools that are willing to say "this batch is not trainable" - and show the evidence.
 
 ## 最近改动
 
