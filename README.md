@@ -42,6 +42,10 @@
 
 公司内部商用系统，真机数采工作站控制端：QRDF / LeRobot 双格式并行录制、三相机适配、上传与审核准入联动。经许可展示脱敏界面，代码与提交记录不公开。
 
+### [QuicStudio 数据管理端](https://mahonghao1.github.io/#platforms)
+
+公司内部数据全生命周期管理控制台：采集管理、标注治理、数据沉淀到训练取数，和 QuicStation 共用同一套批次 / Episode 口径。版本与代码不公开，界面经许可脱敏展示。
+
 ## In English
 
 I work on the handoff between robot data collection and training: real-machine capture, quality gates, LeRobot conversion, and delivery verification. 2027 graduate in Robotics at Shanghai Institute of Technology; currently at Quic Robot. I build tools that are willing to say "this batch is not trainable" - and show the evidence.
