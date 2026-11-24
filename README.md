@@ -55,14 +55,14 @@ I work on the handoff between robot data collection and training: real-machine c
 <!-- RECENT_UPDATES:START -->
 - 2026-11-22 · [Embodied-AI-Data-Processing-Platform v0.17.0](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.17.0) — v0.17.0 · 交付门禁与可安装性
 - 2026-11-20 · [Embodied-AI-Data-Processing-Platform v0.16.1](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/releases/tag/v0.16.1) — v0.16.1 — 队列可见：运行诊断页直接看任务、取消与重试
-  - 2026-11-22 · [docs: 发布说明区分作者本机与审查机测试数](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/315d991cb7e33ece5977a0bf2ef593088f41039e)
-  - 2026-11-22 · [release: v0.17.0 交付门禁与可安装性](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/a6bc4b599132d8a6d2e4a160ea75db543e828547)
+  - 2026-11-23 · [docs: humanize README and lock v0.17.0 evidence (#5)](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/9d2fce8c2180c23fa05794f9798521dac648f5c9)
+  - 2026-11-23 · [chore: add ruff, pre-commit, and dependabot gates](https://github.com/MAHONGHAO1/Embodied-AI-Data-Processing-Platform/commit/e25d994daa5b12725ecc2c4d74f528582fc845d2)
 - 2026-11-22 · [AI-Fund-Management-Platform v0.6.1](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.6.1) — v0.6.1 · 默认离线与 AI 边界收口
 - 2026-11-18 · [AI-Fund-Management-Platform v0.6.0](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/releases/tag/v0.6.0) — v0.6.0 · 冻结样本与跨领域证据
-  - 2026-11-22 · [release: v0.6.1 默认离线与 AI 边界收口](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/83779e9bb0f22afd8d26ea11e1fc4164cfa494b7)
-  - 2026-11-21 · [docs: 30 秒自验补回测试数，与 Profile 一致](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/91430cdb3fe8e431cab239ae863d75cfe514c3fe)
+  - 2026-11-23 · [docs: humanize README and sync v0.6.1 evidence (#3)](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/d4f6d3fe18b48fa315b852f42ee40ca67089d7b3)
+  - 2026-11-23 · [docs: finish v0.6.1 alignment](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/e9f1436e7118a515747e2d30f290e18ebd94a7b9)
 
-（2026-11-23 09:14 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-24 11:08 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
