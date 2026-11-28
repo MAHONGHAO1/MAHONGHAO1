@@ -62,7 +62,7 @@ I work on the handoff between robot data collection and training: real-machine c
   - 2026-11-23 · [docs: humanize README and sync v0.6.1 evidence (#3)](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/d4f6d3fe18b48fa315b852f42ee40ca67089d7b3)
   - 2026-11-23 · [docs: finish v0.6.1 alignment](https://github.com/MAHONGHAO1/AI-Fund-Management-Platform/commit/e9f1436e7118a515747e2d30f290e18ebd94a7b9)
 
-（2026-11-27 09:45 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
+（2026-11-28 08:58 UTC 自动刷新；刷新脚本 `scripts/update_recent.py`）
 <!-- RECENT_UPDATES:END -->
 
 ## 做过什么
